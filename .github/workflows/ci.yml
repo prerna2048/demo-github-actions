@@ -29,12 +29,12 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      - name: Setup Java JDK
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'zulu' 
-          # The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file
-          java-version: 1.8
+#       - name: Setup Java JDK
+#         uses: actions/setup-java@v3
+#         with:
+#           distribution: 'zulu' 
+#           # The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file
+#           java-version: 1.8
           
       - name: Grant execution permission for gradle 
         run: chmod +x gradlew  
