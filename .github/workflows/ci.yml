@@ -52,6 +52,6 @@ jobs:
           # Username for Docker registry
           username: ${{ secrets.DOCKER_USERNAME }}
           # Password for Docker registry
-          password: ${{ secrets.DOCKER_PASSWWORD}}
+          password: ${{ secrets.DOCKER_PASSWORD}}
           # Registry URL
           registry: docker.io
